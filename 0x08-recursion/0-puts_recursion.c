@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
- * _puts_recursion: prints a string
+ * _puts_recursion -  prints a string
  * @s: string
  * Returns: void
  */
-
-void _puts_recursion(char* s)
+void _puts_recursion (char *s)
 {
 	if(*s)
 	{
@@ -15,6 +13,7 @@ void _puts_recursion(char* s)
 	}
 	else
 	{
-		_putchar('\0');
+		_putchar('\n');
 	}
+
 }
