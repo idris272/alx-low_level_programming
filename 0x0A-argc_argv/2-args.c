@@ -7,15 +7,12 @@
  *
  * Return: 0
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	(void)argc;
+	int i;
 
-	int num = 0;
-
-	while (num < argc)
-		printf("%s\n", argv[num]);
-		num++;
+	for (i = 0; i < argc; i++)
+		printf("%s\n", argv[i]);
 
 	return (0);
 }
