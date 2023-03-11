@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 /**
- * This program prints number 
- * arguements pass
- * to it 
+ * main - prints the number of arguments passed into it.
+ * @argc: argument count
+ * @argv: arguments
  *
- * return: 0
- *
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
@@ -14,7 +13,7 @@ int main(int argc, char *argv[])
 
 	int num = 0;
 
-	while (num < argc)
+	while (num <= argc)
 	{
 		printf("%d\n", num);
 		num++;
