@@ -10,6 +10,8 @@
  */
 int main(int argc, char *argv[])
 {
+	(void)*argv[];
+
 	int num = 0;
 
 	while (num < argc)
